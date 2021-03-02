@@ -40,6 +40,8 @@ def build_trainable_location_scale_distribution(initial_loc,
                                                 name=None):
   """Builds a variational distribution from a location-scale family.
 
+  More no-op stuff.
+
   Args:
     initial_loc: Float `Tensor` initial location.
     initial_scale: Float `Tensor` initial scale.
