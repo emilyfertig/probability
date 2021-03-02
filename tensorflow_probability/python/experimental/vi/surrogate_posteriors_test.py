@@ -51,7 +51,7 @@ class TrainableLocationScale(test_util.TestCase):
        'dtype': np.float32},)
   def test_has_correct_ndims_and_gradients(
       self, event_shape, batch_shape, distribution_fn, dtype):
-
+    """This is some no-up stuff for testing."""
     initial_loc = np.ones(batch_shape + event_shape)
     dist = tfp.experimental.vi.build_trainable_location_scale_distribution(
         initial_loc=_build_tensor(initial_loc, dtype=dtype,
